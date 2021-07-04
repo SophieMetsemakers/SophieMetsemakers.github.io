@@ -1,0 +1,41 @@
+.col-custom-container {
+    display: flex;
+    justify-content: space-between;
+}
+.col-custom-left {
+    max-width: 50%;
+}
+.col-custom-right {
+    max-width: 50%;
+}
+.img-custom {
+    width: auto;
+    height: 260px;
+}
+.col-custom {
+    columns: 2 auto;
+    column-gap: 3em;
+    text-align: justify;
+}
+
+/****** MEDIA QUERIES ******/
+
+@media screen and (max-width: 660px) {
+    .col-custom-container {
+    display: contents;
+    }
+    .col-custom-left {
+        max-width: 100%;
+    }
+    .col-custom-right {
+        max-width: 100%;
+    }
+    .img-custom {
+        width: auto;
+        height: 260px;
+    }
+    .col-custom {
+        columns: 1;
+        column-gap: 0;
+    }
+}
