@@ -17,6 +17,19 @@
     column-gap: 3em;
     text-align: justify;
 }
+.image-custom-container {
+    text-align: center;
+}
+#image-festi {
+    height: 300px;
+    width: auto;
+    margin-top: 15px;
+}
+#image-livres-soi {
+    height: 190px;
+    width: auto;
+    margin-top: 15px;
+}
 
 /****** MEDIA QUERIES ******/
 
