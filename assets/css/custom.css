@@ -46,6 +46,15 @@
     max-height: 100%;
     max-width: 100%;
 }
+.dlas-img-container {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.dlas-img {
+    height: auto;
+    width: 50vw;
+}
 
 
 /****** MEDIA QUERIES ******/
@@ -70,5 +79,20 @@
     .col-custom {
         columns: 1;
         column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .dlas-img-container {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .dlas-img {
+        height: auto;
+        width: 50vw;
+        margin: 0 auto;
     }
 }
